@@ -1,0 +1,28 @@
+{
+  "name": "tabelas",
+  "version": "1.0.0",
+  "description": "Estruturação de tabelas em HTML/CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriela-peratello/tabelas.git"
+  },
+  "keywords": [
+    "tabela",
+    "html",
+    "css",
+    "estrutura",
+    "linha",
+    "cabeçalho",
+    "coluna"
+  ],
+  "author": "Gabriela Peratello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriela-peratello/tabelas/issues"
+  },
+  "homepage": "https://github.com/gabriela-peratello/tabelas#readme"
+}
