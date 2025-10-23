@@ -4,8 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos sobre tabela</title>
+
+    <style>
+        table, th, td{
+            border-color: black;
+            border-width: 2px;
+            border-style: solid;
+            /*COLLAPSE = TIRA O ESPAÇO - BORDER-SPACE=0, FAZ A MESMA COISA*/
+            border-collapse: collapse;
+            
+        }
+
+        th{
+            background-color: aquamarine;
+        }
+
+        .align{
+            text-align: center;
+        }
+    </style>
+
 </head>
 <body>
-    
+    <table>
+        <!-- tr= linha da tabela -->
+        <thead>
+            <tr>
+                <!-- th= table head, caeçalho  -->
+                <th>Título 01</th>
+                <th>Título 02</th>
+                <th>Título 03</th>
+            </tr>
+        </thead>
+
+            <!-- ALT + SHIFT + SETA PRA BAIXO -->
+
+        <tbody>
+            <tr>
+                <td>Informação 01</td>
+                <td>Informação 02</td>
+                <td>Informação 03</td>
+            </tr>
+            <tr>
+                <td>Informação 04</td>
+                <td>Informação 05</td>
+                <td>Informação 06</td>
+            </tr>
+            <tr>
+                <td>Informação 07</td>
+                <td>Informação 08</td>
+                <td>Informação 09</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+               <td colspan="3" class="align">Dados extraídos em 23/10</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
