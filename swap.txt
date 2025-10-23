@@ -7,7 +7,9 @@
 
     <style>
         table, th, td{
-            border: solid black 2px;
+            border-color: black;
+            border-width: 2px;
+            border-style: solid;
             /*COLLAPSE = TIRA O ESPAÇO - BORDER-SPACE=0, FAZ A MESMA COISA*/
             border-collapse: collapse;
             

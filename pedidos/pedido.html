@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pedido.css">
+</head>
+
+<body>
+    <h1>Tabelas Formatadas com css</h1>
+
+    <h2>Tabela 01: produtos</h2>
+    <!-- tag table, inicio da tabela -->
+    <table class="tabela-1">
+        <!-- thead, cabeçalho da tabela -->
+        <thead>
+            <!-- tr, linha do cabeçalho da tabela -->
+            <tr>
+                <!-- th, conteudo celula da tabela -->
+                <th>Imagem</th>
+                <th>Nome do produto</th>
+                <th>Preço</th>
+                <th>Comprar</th>
+            </tr>
+        </thead>
+        <!-- tbody, corpo da tabela -->
+        <tbody>
+            <!-- tr, linha do corpo da tabela -->
+            <tr>
+                <td><img src="/produtos/img/dois-espelhos-retangulares-bordar-arredondadas-decorativos.jpg" width="50px" alt="dois espelhos decorativos"/></td>
+
+                <td>Conjuto espelhos decorativos arredondados - 2 unidades</td>
+
+                <td>R$ 249,90</td>
+
+                <td><button>Comprar</button></td>
+            </tr>
+
+            <tr>
+                <td><img src="/produtos/img/espelho-redondo-sem-borda-decorativo.jpg" alt="espelho sem borda" width="50px"></td>
+
+                <td>Espelho decorativo sem borda</td>
+
+                <td>R$ 139,90</td>
+
+                <td><button>Comprar</button></td>
+            </tr>
+
+            <tr>
+                <td><img src="/produtos/img/espelho-retangular-dourado-decorativo.jpg" alt="espelho retangular" width="50px"></td>
+
+                <td>Espelho decorativo borda retangular dourada</td>
+
+                <td>R$ 219,00</td>
+
+                <td><button>Comprar</button></td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+
+    <h2>Tabela 02: histórico de pedidos</h2>
+    <table class="tabela-2">
+
+        <thead>
+            <tr>
+                <th>Número do pedido</th>
+                <th>Data</th>
+                <th>Valor total</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>12345</td>
+                <td>2023-11-01</td>
+                <td>R$ 249,90</td>
+                <td><span>Entregue</span></td>
+            </tr>
+
+            <tr>
+                <td>56789</td>
+                <td>2025-10-02</td>
+                <td>R$ 249,90</td>
+                <td><span>Em processamento</span></td>
+                
+            </tr>
+
+            <tr>
+                <td>09876</td>
+                <td>2025-10-21</td>
+                <td>R$ 219,90</td>
+                <td><span>Aguardando pagamento</span></td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+
+</html>
