@@ -1,0 +1,52 @@
+html{
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    /* tirar os espaços = collapse */
+    border-collapse: collapse;
+    width: 80%;
+    margin: 25px auto;
+    background-color:rgb(243, 252, 219);
+    border: solid;
+}
+
+th, td{
+    padding: 8px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 2px solid;
+}
+
+th{
+    background-color:rgb(172, 226, 170);
+    font-weight: bold;
+}
+
+tfoot tr td{
+    background-color: rgb(45, 109, 61);
+}
+
+/* dois pontos: pseudoclasse */
+tr:nth-child(even) {
+    background-color: rgb(177, 221, 186);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(114, 160, 126);
+}
+
+
+caption{
+    background-color: rgb(65, 158, 65);
+    padding: 10px;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    border: solid;
+}
+
+.altura{
+    height: 120px;
+}
